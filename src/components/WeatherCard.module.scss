@@ -1,0 +1,166 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    // background-color: #c0c0c0;
+    max-width: 600px;
+    max-height: 400px;
+    text-align: center;
+
+    
+    .searchM{
+        input{
+            background: transparent;
+            border: 2px solid rgba(255, 166, 0, 0.507);
+            border-radius: 10px;
+            // color: #FAF9F6;
+            text-decoration: underline;
+            font-size: larger;
+            margin-top: 7px;
+            left: 50px;
+        }
+
+        button{
+            border-radius: 40px;
+            border-color: #FAF9F6;
+            background: transparent;
+            color: #FAF9F6;
+        }
+    }
+
+    h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        color: #FAF9F6;
+    }
+
+    .card_image{
+        text-align: center;
+        width: 56px;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .currentDay{
+        font-size: 44px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .currentDate{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+
+    }
+
+    .city{
+        color: #FAF9F6;
+        font-size: 44px;
+    }
+
+    .temperature{
+        text-align: center;
+        color: #FAF9F6;
+        font-size: 25px;
+    }
+
+    .description{
+        text-align: center;
+        color: #FAF9F6;
+        font-size: 25px;
+    }
+}
+
+.currentDay, .description, .temperature, .city{
+    justify-content: center;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    // background-color: black;
+    // background-color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+    }
+}
+
+// ----------------------------------------------------------
+
+.days{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    // flex-wrap: nowrap;
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        justify-content: flex-start;
+    }
+
+    .card2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 5px;
+        justify-content: flex-start;
+        margin-left: 40px;
+
+    }
+
+    .card3{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .card4{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .card5{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+}
+
+.days :hover{
+    filter: blur(80%);
+    // background-color: rgba($color: #000000, $alpha: 0.2);
+
+
+}
+
+.dayly{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+
+    .day_data{
+        text-align: center;
+    }
+}
